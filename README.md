@@ -1,7 +1,8 @@
 # Kirox API Service
 FastAPI 服務，涵蓋使用者/機器人管理、聊天紀錄語意檢索（Milvus）、知識庫維護，以及相機串流/截圖。
 
-![alt text](background.png)
+![alt text](Kirox_background.png)
+
 ## 環境需求
 - Python 3.10+（建議虛擬環境）
 - PostgreSQL（預設連線在 `db.py`）
