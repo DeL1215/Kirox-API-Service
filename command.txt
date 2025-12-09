@@ -1,0 +1,8 @@
+conda activate XBOT-API
+
+cd /home/del1215/LLM_Project/Kirox-API-Service
+
+python -m uvicorn service:app --reload --host 0.0.0.0 --port 2025
+
+
+http://localhost:2025/docs
